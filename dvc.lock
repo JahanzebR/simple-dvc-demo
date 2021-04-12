@@ -24,7 +24,7 @@ stages:
       size: 93598
     - path: src/split_data.py
       md5: a5e8bcbf3d778712284c89ccb6ebec6d
-      size: 1063
+      size: 1036
     outs:
     - path: data/processed/test_winequality.csv
       md5: 01718da3bd6e206060ed00667ca1a389
@@ -43,7 +43,7 @@ stages:
       size: 74913
     - path: src/train_and_evaluate.py
       md5: f224960a0fcab7b50fa350a5aab2a787
-      size: 2611
+      size: 2528
     params:
       params.yaml:
         estimators.ElasticNet.params.alpha: 0.9
